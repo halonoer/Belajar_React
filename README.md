@@ -5,21 +5,16 @@ div id =  app
 h1 = belajar react bareng wpu
 
 DOM Manipulation
-1. 
-// seleksi elemen div dengan id 'app'
-const app = document.getElementById('app');
-2. 
-// buat element h1 baru
-const header = document.createElement('h1');
-3. 
-// buat text node untuk elemen h1 tadi
-const headerContent = document.createTextNode('Belajar React bareng WPU');
-4.
-// append teks ke dalam h1 
-header.appendChild(headerContent);
-5. 
-// simpan elemen h1 didalam div
-app.appendchild(header);
+1. // seleksi elemen div dengan id 'app'
+   const app = document.getElementById('app');
+3. // buat element h1 baru
+   const header = document.createElement('h1');
+5. // buat text node untuk elemen h1 tadi
+   const headerContent = document.createTextNode('Belajar React bareng WPU');
+7. // append teks ke dalam h1
+   header.appendChild(headerContent);
+9. // simpan elemen h1 didalam div
+    app.appendchild(header);
 
  manipulasi DOM menggunakan JavaScript
  - HTML merepresentasikan konten halaman awal

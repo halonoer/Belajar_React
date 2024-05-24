@@ -31,3 +31,25 @@ imperactive dan declarative programming
 - imperactive programming bagaikan memberikan instruksi pada koki direstoran saat kita ingin memesan pizza
 - declarative programming itu saat kita memesan pizaa sesuai menu tanpa menghiraukan langkah demi langkahnya
 - react merupakan sebuah UI libray yang declaritve
+
+mulai react 
+- untuk menggunakan react dalam project kita, kita butuh 2 script react yang bisa kita panggil lewat unpkg.com
+- react sebagai libray utama
+- reacdom agar kita bisa menggunakan method-method untuk menipulasi DOM
+
+<html>
+   <body>
+      div id="root" div 
+      <script src:"https://www.unpkg.com/browse/react@18.3.1/"></script> 
+      <script src:""></script>
+      <script type:"text/javascript">
+         const container = document.getElementById('root');
+      </script>
+   </body> 
+</html>
+
+kunjugi web react (https://react.dev/)
+klik learn
+installation
+download
+

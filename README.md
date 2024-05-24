@@ -75,5 +75,44 @@ menambahkan babel (babeljs.io)
 - tambahkan script babel pada project kita lewat unpkg
 - jangan lupa juga untuk mengubah type pada script menjadi "text/jsx" untuk menginformasikan pada babel kita akan mengubah jsx menjadi javascript
 
+(vanila JS = JavaScript murni) = (vanilaJS.html)
+react = coba123.html
+
+bandingkan script vanila JS & React
+
+
+apa bedanya JSX sama html
+
+JSX
+- JSX adalah ekstensi sintaks untuk javascript yang dapat mendeskripsikan UI dengan sintaks seperti HTML
+- Meskipun masih ada cara lain untuk membuat komponen, kebanyakan developer React menggunakan JSX
+- Sintaks JSX terlihat seperti HTML, tapi lebih strict dalam penulisannya dan bisa menampilkan informasi yang dinamis
+- untuk menulisnya, kita harus ingat 3 aturan JSX 
+- https://react.dev/learn/writing-markup-with-jsx
+
+1. -Selalu mengembalikan satu elemen
+<script type="text/babel">
+   const container = document.getElementById('root');
+   const root = ReactDOM.createRoot(container);
+   root.render(<h1>belajar react oyyyyy 🚀</h1>);
+</script>
+
+2. -Selalu tutup semua tag
+
+3. -Gunakan camelCase untuk atribut
+const container = document.getElementById('root');
+const root = ReactDOM.createRoot(container);
+root.render(
+    <>
+        <h1>Belajar React oyyy 🚀</h1>
+        <p>hahahahahha</p>
+        <p onClick={e => {alert('ok!')}}>Belajar React menyenangkan bukan?!</p>
+    </>
+);
+
+
+
+
+
 
 

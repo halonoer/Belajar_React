@@ -48,8 +48,32 @@ mulai react
    </body> 
 </html>
 
-kunjugi web react (https://react.dev/)
-klik learn
-installation
-download
+tutorial
+- kunjugi web react (https://react.dev/)
+- klik learn
+- installation
+- klik download this HTML page. (coba.html)
+- buat file html (coba123.html)
+
+menyiapkan aplikasi 
+- untuk menyiapkan aplikasi react pada halaman kita, kita butuh method ReactDom.createRoot() yang diambil dari package react-dom
+- method tersebut digunakan sebagai wadah untk aplikasi
+- kita juga butuh method render untuk menampilkan elemen h1 kita
+
+jika terjadi error
+- klik kanan
+- klik inspeksi
+- klik console
+
+error karena 
+- react dimengenali h1, h1 didalam method render bukan javascript, itu adalah JSX. 
+- secara default browser tidak mengenali JSX. 
+- kita butuh sebuah compiler yang dapat menerjemahkan JSX jadi sintaks javascript biasa.
+- kita akan menggunakan babel sebagai penerjemah-nya
+
+menambahkan babel (babeljs.io)
+- tambahkan script babel pada project kita lewat unpkg
+- jangan lupa juga untuk mengubah type pada script menjadi "text/jsx" untuk menginformasikan pada babel kita akan mengubah jsx menjadi javascript
+
+
 

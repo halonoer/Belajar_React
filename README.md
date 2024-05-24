@@ -111,6 +111,50 @@ root.render(
 );
 
 
+Prerequisite 
+apa yang harus kita siapkan untuk belajar react 
+
+Materi yang harus dikuasai
+- HTML & CSS
+- JavaScript Fundamentals
+- DOM
+- Modern Javascript (ES6)
+- Git & CLI (Command Line Interface)
+- Package Manager (NodeJS + NPM)
+
+modern Javascript (ES6)
+- ES6 Variables (let & const)
+1. kapan bisa pake let dan kapan bisa pake const
+2. jangan pake var lagi
+
+- Functions & Arrow Functions
+1. cara menggunakan functions, functions expression, dan function declaration
+2. arrow function beserta prilakunya
+
+- Objects & Classes
+1. cara penggunaannya dan instasiasi object, dan pewarisan
+
+- Arrays  & array Methods
+1. array dan method, Higher-Order Functions, Map, Filter, Reduce..
+
+- Dectructuring 
+cara tau memecah object dan array
+
+- Template Literals 
+cara mudah untuk merangkai string yang ada variabel didalamnya, gk perlu keluar masuk, gk perlu konkatenasi, pahami template literals
+
+- Ternary Operators
+ini sering dipake, yang tanda tanya dan titik dua, menganti if else menjadi one linear atau satu baris.
+
+- ES Modules & Import / Export Syntax
+memahami caranya import export file kita atau method kita, disebuah modul 
+
+Editor Setup
+- Code Editor: VsCode
+- Linter: ESLint  
+- Code Formatter: Prettier
+- Browser Extension: React Developer Tools
+
 
 
 

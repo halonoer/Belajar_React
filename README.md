@@ -39,9 +39,9 @@ mulai react
 
 <html>
    <body>
-      div id="root" div 
-      <script src:"https://www.unpkg.com/browse/react@18.3.1/"></script> 
-      <script src:""></script>
+      <div id="root"></div>
+      <script src:"https://www.unpkg.com/browse/react@18.3.1/cjs/react.development.js"></script> 
+      <script src:"https://unpkg.com/browse/react-dom@18.3.1/cjs/react-dom.development.js"></script>
       <script type:"text/javascript">
          const container = document.getElementById('root');
       </script>
